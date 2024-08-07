@@ -39,7 +39,7 @@ similarity = pickle.load(open('similarity.pkl', 'rb'))
 st.title('Music Recommender System')
 
 selected_music_name = st.selectbox(
-    'Masukkan lagu yang anda inginkan',
+    'Masukkan lagu yang anda mau',
     musics['artists_n_song'].values)
 
 if st.button('Recommend'):
